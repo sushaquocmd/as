@@ -1,0 +1,9 @@
+Players:
+  RompOrTos:
+    UUID: c5551972-6eb1-3fa6-b9af-c905864589e9
+    HP: 0
+    banCause: Caída
+    banTime: 04:12:06
+    banDay: '2025-10-29'
+    coords: -75 73 -202
+    LastDay: 1

@@ -1,0 +1,169 @@
+[00:44:32] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:44:33] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[00:44:33] [Worker-Main-1/INFO]: Loaded 7 recipes
+[00:44:34] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[00:44:34] [Server thread/INFO]: Loading properties
+[00:44:34] [Server thread/INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[00:44:34] [Server thread/INFO]: Debug logging is disabled
+[00:44:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:44:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:44:34] [Server thread/INFO]: Default game type: SURVIVAL
+[00:44:34] [Server thread/INFO]: Generating keypair
+[00:44:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:44:35] [Server thread/INFO]: Using epoll channel type
+[00:44:36] [Server thread/ERROR]: Could not load 'plugins/ProtocolLib.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/comphenix/protocol/ProtocolLib has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-794]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/comphenix/protocol/ProtocolLib has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1022) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:201) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:594) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:119) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Paper-794]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Paper-794]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Paper-794]
+	... 7 more
+[00:44:36] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.5+57d5ac9
+[00:44:36] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@39f785]
+[00:44:36] [Server thread/INFO]: [Permadeath] Loading Permadeath v1.3
+[00:44:36] [Server thread/INFO]: [NBTAPI] Loading NBTAPI v2.15.3
+[00:44:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_16_R3! Trying to find NMS support
+[00:44:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_16_R3' loaded!
+[00:44:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[00:44:36] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.8.2
+[00:44:36] [Server thread/INFO]: [BetterRevive] Loading BetterRevive v0.9.1-BETA
+[00:44:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:44:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.5+57d5ac9
+[00:44:36] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:44:37] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[00:44:37] [Thread-7/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[00:44:38] [Server thread/INFO]: [Permadeath] Enabling Permadeath v1.3
+[00:44:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.8.2
+[00:44:38] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.16.5[32;1m.[0;39m
+[00:44:39] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[00:44:39] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 11).[0;39m
+[00:44:39] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
+[00:44:39] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
+[00:44:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:44:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:44:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:44:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:44:39] [Server thread/INFO]: Preparing level "world"
+[00:44:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:44:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:44:40] [Server thread/INFO]: Preparing spawn area: 0%
+[00:44:40] [Server thread/INFO]: Time elapsed: 454 ms
+[00:44:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:44:40] [Server thread/INFO]: Time elapsed: 141 ms
+[00:44:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:44:40] [Server thread/INFO]: Time elapsed: 66 ms
+[00:44:40] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.15.3
+[00:44:40] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[00:44:40] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[00:44:40] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[00:44:40] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[00:44:41] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[00:44:41] [Server thread/INFO]: [BetterRevive] Enabling BetterRevive v0.9.1-BETA
+[00:44:41] [Server thread/INFO]: [BetterRevive] Inventory title with support for more than 32 characters. Skipping..
+[00:44:41] [Server thread/INFO]: [BetterRevive] Hex colors are available! Ready for RGB..
+[00:44:41] [Server thread/INFO]: [BetterRevive] Old constructor for HoverEvent found! Using it..
+[00:44:41] [Server thread/INFO]: [BetterRevive] New sendTitle method found! Using it..
+[00:44:41] [Server thread/INFO]: [BetterRevive] New setUnbreakable method found! Using it..
+[00:44:41] [Server thread/INFO]: [BetterRevive] New isUnbreakable method found! Using it..
+[00:44:41] [Server thread/INFO]:   ___      _   _           ___         _         
+[00:44:41] [Server thread/INFO]:  | _ ) ___| |_| |_ ___ _ _| _ \_____ _(_)_ _____ 
+[00:44:41] [Server thread/INFO]:  | _ \/ -_)  _|  _/ -_) '_|   / -_) V / \ V / -_)
+[00:44:41] [Server thread/INFO]:  |___/\___|\__|\__\___|_| |_|_\___|\_/|_|\_/\___|
+[00:44:41] [Server thread/INFO]: 
+[00:44:41] [Server thread/INFO]:    Running plugin BetterRevive v0.9.1-BETA (v1_16)
+[00:44:41] [Server thread/INFO]:    Server running Paper version git-Paper-794 (MC: 1.16.5)
+[00:44:41] [Server thread/INFO]:    (Implementing API version git-Paper-794 (MC: 1.16.5))
+[00:44:41] [Server thread/INFO]:    (Developed by  AlonsoAliaga - Thanks for using my plugin ❤)
+[00:44:41] [Server thread/INFO]:    If you loved the plugin consider leaving a review and mentioning your server IP in it!
+[00:44:41] [Server thread/INFO]: 
+[00:44:41] [Server thread/INFO]: ==============================================================================================
+[00:44:41] [Server thread/INFO]: [BetterRevive] This is not a error! This is just a warning to keep in mind if you have issues!
+[00:44:41] [Server thread/INFO]: [BetterRevive] You are using a Paper fork (Paper). This plugin was made for Spigot
+[00:44:41] [Server thread/INFO]: [BetterRevive] but was (in most cases) tested with different builds of Paper and Purpur.
+[00:44:41] [Server thread/INFO]: [BetterRevive] Spigot and forks API are really similar and should be compatible, however there are
+[00:44:41] [Server thread/INFO]: [BetterRevive] some cases in which they aren't compatible. If you have issues report them to the
+[00:44:41] [Server thread/INFO]: [BetterRevive] developer instead of reviewing 1 star. Thanks in advanced!
+[00:44:41] [Server thread/INFO]: [BetterRevive] Join us in our official support server on alonsoaliaga.com/discord
+[00:44:41] [Server thread/INFO]: ==============================================================================================
+[00:44:41] [Server thread/INFO]: 
+[00:44:41] [Server thread/INFO]: [BetterRevive] BungeeCord action bar available. Hooking..
+[00:44:41] [Server thread/INFO]: [BetterRevive] ProtocolLib not found! Skipping..
+[00:44:41] [Server thread/INFO]: [Auto-update] Configuration config.yml is up-to-date!
+[00:44:41] [Server thread/INFO]: [BetterRevive] Factions hook is enabled but couldn't find any supported faction plugin were found. Disabling hook..
+[00:44:41] [Server thread/INFO]: [BetterRevive] Finish off feature has been enabled! Players can finish off other player!
+[00:44:41] [Server thread/INFO]: [BetterRevive] Finish off health: 20 | Finish off damage multiplier: 0.5
+[00:44:41] [Server thread/INFO]: [BetterRevive] DamageCause for finish off is empty! All damage cause will be allowed to finish off players. (Includes DROWING, FIRE, LAVA, etc)
+[00:44:41] [Server thread/INFO]: [BetterRevive] Bleeding mode is 0! Plugin will select the best option for your server!
+[00:44:41] [Server thread/INFO]: [BetterRevive] Server version is v1_16. Players will look like swimming while bleeding! (Mode 2)
+[00:44:41] [Server thread/INFO]: [BetterRevive] Loaded 1 bleeding effects.
+[00:44:41] [Server thread/INFO]: [BetterRevive] Loaded 1 revived effect.
+[00:44:41] [Server thread/INFO]: Starting GS4 status listener
+[00:44:41] [Server thread/INFO]: Thread Query Listener started
+[00:44:41] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[00:44:41] [Server thread/INFO]: Running delayed init tasks
+[00:44:41] [Server thread/INFO]: Permadeath ➤ No se ha encontrado una librería JDA, deberás instalar una en caso de querer utilizar un bot de Discord.
+[00:44:41] [Server thread/INFO]: Descarga aquí: https://www.spigotmc.org/resources/permadeath-%E2%98%A0%EF%B8%8F.112343/
+[00:44:41] [Server thread/INFO]: Si no puedes descargarlo allí, únete a este Discord y te daremos acceso al enlace: https://discord.gg/8evPbuxPke
+[00:44:41] [Server thread/INFO]: ------------------------------------------
+[00:44:41] [Server thread/INFO]:              PERMADEATH
+[00:44:41] [Server thread/INFO]:      - Versión: 1.3
+[00:44:41] [Server thread/INFO]:      - Versión del Servidor: v1.16
+[00:44:41] [Server thread/INFO]: ------------------------------------------
+[00:44:41] [Server thread/INFO]:  >> INFORME DE ESTADO
+[00:44:41] [Server thread/INFO]: > Estado de mundos: Overworld: world End: world_the_end
+[00:44:41] [Server thread/INFO]:     > End: world_the_end
+[00:44:41] [Server thread/INFO]:     > Overworld: world
+[00:44:41] [Server thread/INFO]: > Estado de Compatibilidad: Compatible
+[00:44:41] [Server thread/INFO]: > Software: PaperMC (Compatible)
+[00:44:41] [Server thread/INFO]: > Cambios:
+[00:44:41] [Server thread/INFO]: >   Días disponibles: 1-60
+[00:44:41] [Server thread/INFO]: Done (7.198s)! For help, type "help"
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.28
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+[00:44:41] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[00:44:41] [Server thread/INFO]: Timings Reset
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.8.2[0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mcf773a3[0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[00:44:41] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[00:44:42] [Craft Scheduler Thread - 3/INFO]: Permadeath ➤ Versión del plugin: Versión más reciente instalada.
+[00:44:43] [Craft Scheduler Thread - 1/INFO]: [BetterRevive] Checking for updates...
+[00:44:43] [Craft Scheduler Thread - 1/INFO]: [BetterRevive] Plugin up-to-date! You have the latest version!
